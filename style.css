@@ -1,0 +1,79 @@
+body{
+     font-size: 16px;
+     font-family: Karla;
+     font-weight: 400, 700;
+}
+
+form {
+  border: solid white 1px;
+  background-color: white;
+  border-radius: 15px;
+}
+p {
+  color: red;
+}
+#Generaldiv {
+  display: flex;
+  justify-content: space-around;
+  margin: 2px;
+}
+#firstradio,
+#secondradio {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 15px 0 0 15px;
+}
+
+#firstradio:focus,#firstradio:hover{
+     color: hsl(169, 82%, 27%);
+}
+#secondradio:focus,#secondradio:hover{
+     color: hsl(169, 82%, 27%);
+}
+#firstradio:focus {
+     border: 2px solid hsl(169, 82%, 27%); 
+     background-color: hsl(148, 38%, 91%); 
+     outline: none; 
+ }
+ #firstradio:hover {
+     border: 2px solid hsl(169, 82%, 27%); 
+ }
+ #secondradio:focus {
+     border: 2px solid hsl(169, 82%, 27%); 
+     background-color: hsl(148, 38%, 91%); 
+     outline: none; 
+ }
+ #secondradio:hover {
+     border: 2px solid hsl(169, 82%, 27%); 
+ }
+
+
+#General,#Support{
+     margin-left:15px;
+}
+#general1,#support1{
+     padding-left: 15px;
+}
+input:focus, input:hover {
+     color: hsl(169, 82%, 27%);
+ }
+ input:focus {
+     border: 2px solid hsl(169, 82%, 27%); 
+     background-color: hsl(148, 38%, 91%); 
+     outline: none; 
+ }
+ input:hover {
+     border: 2px solid hsl(169, 82%, 27%); 
+ }
+ 
+ 
+ .form {
+     display: grid;
+     place-items: center; 
+     width: 80%;
+     height: 200px;
+     background-color: hsl(169, 82%, 27%);
+     margin-top: 50px;
+ }
+ 
+
