@@ -72,8 +72,18 @@ input:focus, input:hover {
      place-items: center; 
      width: 80%;
      height: 200px;
-     background-color: hsl(169, 82%, 27%);
      margin-top: 50px;
+ }
+ .cover{
+  margin-left: 150px;
+ }
+ .contact{
+  font-size: large;
+  color: black;
+  font-weight: bold;
+ }
+#General,#Support{
+  border:solid black 1px;
  }
  
 
