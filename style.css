@@ -67,15 +67,9 @@ input:focus, input:hover {
  }
  
  
- .form {
-     display: grid;
-     place-items: center; 
-     width: 80%;
-     height: 200px;
-     margin-top: 50px;
- }
- .cover{
-  margin-left: 150px;
+
+ #cover{
+  margin: 50px;
  }
  .contact{
   font-size: large;
